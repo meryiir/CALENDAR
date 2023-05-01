@@ -1,0 +1,44 @@
+:root {
+    --ec-weekend: rgba(0, 0, 0, 0); /*Provide weekends border*/
+    --ec-light: #ffffff;
+    --ec-primary: #186b64;
+    --ec-secondary: #7cdc87;
+    --ec-dark: #262769;
+
+    /*if options pattern is alternate*/
+    --ec-alternate-bg:#112e0d;
+    --ec-alternate-bg-light:#eceaf5;
+
+    /*Background of day name background, two different color will give alternate colors bg*/
+    --ec-title-bg-light: #f1f1f1;
+    --ec-title-bg: #f1f1f1;
+
+    /*Only for title / header section*/
+    --ec-title: #0b386c;
+    --ec-header: #ffffff;
+
+    /*main bg of each cell*/
+    --ec-bg-main: #ffffff;
+    
+    
+    --ec-today: #f55858; 
+    --ec-event:#f3f3f3; /*event day color background*/
+    --ec-disabled:#c2c1cc; /*color of disabled cells*/
+    --ec-height: 200px; /*height of each day cell*/
+    --ec-mainWidth:100%; /*Determines the width of the main container*/
+    --ec-calendarWidth:100%; /* set the width only for days and week names section */
+    --ec-border:#dddddd; 
+
+    /*if accessibility is true, these selected and selected-text variables will reflect*/ 
+    --ec-selected:#183f2c; 
+    --ec-selected-text:#ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+    :root {
+      --ec-height: 150px; 
+      --ec-mainWidth:600px; 
+      --ec-calendarWidth:1000px;
+    }
+  
+  }
