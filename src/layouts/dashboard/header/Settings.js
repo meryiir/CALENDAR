@@ -4,7 +4,7 @@ import {RiLockPasswordFill} from "react-icons/ri"
 import {CgProfile} from "react-icons/cg"
 import Nav from '../nav/index'
 
-const Profil = () => {
+const Settings = () => {
   return (
     <>
       <Nav/>
@@ -81,4 +81,4 @@ const Profil = () => {
   )
 }
 
-export default Profil
+export default Settings

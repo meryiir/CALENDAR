@@ -10,8 +10,8 @@ import account from '../../../_mock/account';
 
 const MENU_OPTIONS = [
   {
-    label: 'Profile',
-    icon: 'eva:person-fill',
+    label: 'Settings',
+    icon: '',
   }
 ];
 
@@ -47,7 +47,7 @@ export default function AccountPopover() {
           }),
         }}
       >
-        <Avatar src={account.photoURL} alt="photoURL" />
+        <Avatar alt="photoURL" />
       </IconButton>
 
       <Popover

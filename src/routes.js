@@ -9,7 +9,7 @@ import LoginPage from './pages/LoginPage';
 import Page404 from './pages/Page404';
 import ProductsPage from './pages/Emploi';
 import DashboardAppPage from './pages/DashboardAppPage';
-import Profil from './layouts/dashboard/header/Profil';
+import Profil from './layouts/dashboard/header/Settings';
 
 // ----------------------------------------------------------------------
 
